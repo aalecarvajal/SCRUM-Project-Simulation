@@ -10,7 +10,26 @@ html {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #ebddf5;
+  background-color: #fdf3e7;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 30px 20px;
+}
+
+footer {
+  background-color: #d382f9;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 5px 0;
 }
 
 nav {
@@ -39,6 +58,3 @@ nav a:hover {
   background-color: #cf06f2;
 }
 
-main {
-  padding: 30px 20px;
-}
