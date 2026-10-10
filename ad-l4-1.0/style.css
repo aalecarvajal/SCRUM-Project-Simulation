@@ -10,7 +10,8 @@ html {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fdf3e7;
+  background: linear-gradient(to bottom, #f7ebdd, #f5bc76);
+  background-attachment: fixed;
   min-height: 100%;
   display: flex;
   flex-direction: column;
