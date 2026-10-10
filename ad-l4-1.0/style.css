@@ -61,7 +61,7 @@ main h2 {
 }
 
 footer {
-  background-color: #d382f9;
+  background-color: #60d394;
   color: white;
   text-align: center;
   padding: 20px;
@@ -76,7 +76,7 @@ nav {
   top: 0;
   z-index: 100;
   display: flex;
-  background-color: #b680e9;
+  background-color: #22864f;
 }
 
 nav a { 
@@ -94,6 +94,6 @@ nav a:last-child {
 }
 
 nav a:hover { 
-  background-color: #cf06f2;
+  background-color: #565203;
 }
 
