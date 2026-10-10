@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family:'Trebuchet MS', sans-serif;
   background: linear-gradient(to bottom, #f7ebdd, #f5bc76);
   background-attachment: fixed;
   min-height: 100%;
@@ -58,6 +58,34 @@ main h2 {
   width: 100%;
   display: block;
   border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button {
+  padding: 12px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a3202;
 }
 
 footer {
